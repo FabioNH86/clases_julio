@@ -10,7 +10,8 @@ precios = {
 
 def calcular_total(lista_compras):
     total = 0
-    # TODO: Recorre la lista_compras y suma el valor de cada item 
+    for objeto in lista_compras:
+       total += precios[objeto]   # TODO: Recorre la lista_compras y suma el valor de cada item 
     # buscando su precio en el diccionario 'precios'.
     return total
 
