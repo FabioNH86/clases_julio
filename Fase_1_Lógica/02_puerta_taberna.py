@@ -7,5 +7,10 @@
 edad = int(input("¿Qué edad tienes? "))
 oro = int(input("¿Cuánto oro tienes? "))
 
+if oro >= 100 or edad >= 18:
+    print("Pasa")
+
+else:
+    print("no pasas")
 # TODO: Crea la condición usando IF / ELSE y operadores lógicos
 # Tu código aquí:

@@ -8,5 +8,7 @@ maximo = 50
 
 # TODO: Crea un bucle WHILE para recargar la energía
 # Tu código aquí:
-
+while energia != maximo:
+    energia += 5
+    print(energia)
 print("¡Poder cargado!")

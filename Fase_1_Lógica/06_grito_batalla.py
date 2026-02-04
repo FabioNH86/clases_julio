@@ -5,7 +5,8 @@
 
 # TODO: Define la función aquí
 # Tu código aquí:
-
+def saludar_heroe(nombre,clase):
+    return f"el nombre {nombre} y la clase {clase} son epicas"
 # Prueba de la función (No tocar esto)
 nombre_test = "Arturo"
 clase_test = "Caballero"

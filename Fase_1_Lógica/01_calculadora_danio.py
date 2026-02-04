@@ -7,8 +7,9 @@
 salud_jugador = 100
 ataque_enemigo = 35
 defensa_jugador = 10
-
+dano_final = 0
 # TODO: Calcula el daño_final y actualiza la salud_jugador
 # Tu código aquí:
-
+dano_final = ataque_enemigo - defensa_jugador
+salud_jugador -= dano_final
 print(f"Salud restante: {salud_jugador}") # Debería dar 75

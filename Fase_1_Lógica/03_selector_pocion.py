@@ -9,3 +9,11 @@ eleccion = input("¿Qué poción usas? ").lower()
 
 # TODO: Implementa la lógica de selección aquí
 # Tu código aquí:
+if eleccion == "roja":
+    print("Curaste vida")
+elif eleccion == "azul":
+    print("Recuperaste mana")
+elif eleccion == "verde":
+    print("Subio energia")
+else:
+    print("Pocion desconocida")
