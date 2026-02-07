@@ -5,6 +5,6 @@ aliados = ["Juan", "Pedro", "Luis", "Mario"]
 
 # TODO: Usa el método .remove() con el nombre "Mario"
 # Tu código aquí:
-
+aliados.remove([3])
 print(f"Aliados restantes: {aliados}")
 # Debería mostrar: ['Juan', 'Pedro', 'Luis']
