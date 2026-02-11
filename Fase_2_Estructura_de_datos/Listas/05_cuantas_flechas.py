@@ -5,5 +5,5 @@ carcaj = ["flecha", "flecha", "flecha", "flecha", "flecha", "flecha", "flecha"]
 
 # TODO: Guarda el tamaño de la lista en una variable llamada 'cantidad'
 # Tu código aquí:
-
+cantidad = len(carcaj)
 print(f"Tienes un total de {cantidad} flechas.")

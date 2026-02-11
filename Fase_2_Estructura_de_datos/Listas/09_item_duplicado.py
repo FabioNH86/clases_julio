@@ -6,6 +6,6 @@ mochila = ["Pocion", "Escudo", "Pocion", "Mapa", "Pocion"]
 # TODO: Usa el método .count() para contar cuántas "Pocion" hay
 # cantidad = ...
 # Tu código aquí:
-
+cantidad = mochila.count("Pocion")
 print(f"Tienes {cantidad} pociones en la mochila.")
 # Debería mostrar: Tienes 3 pociones en la mochila.

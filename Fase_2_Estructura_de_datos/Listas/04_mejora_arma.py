@@ -5,6 +5,7 @@ armas = ["Daga", "Hacha", "Arco"]
 
 # TODO: Reemplaza el elemento en el índice 0
 # Tu código aquí:
+armas[0] = "Espada Laser"
 
 print(f"Armas actualizadas: {armas}")
 # Debería mostrar: ['Espada Laser', 'Hacha', 'Arco']
