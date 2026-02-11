@@ -6,8 +6,13 @@
 def analizar_distancias(lista_coords):
     # TODO: Calcula el total de coordenadas usando len()
     # TODO: Accede a la primera tupla de la lista
-    pass
+    size_lista = len(lista_coords)
+    firstcoord = lista_coords[0]
+    return size_lista, firstcoord
+    
 
 # Prueba
-puntos_interes = [(10, 20), (45, 12), (0, 5), (100, 80)]
-analizar_distancias(puntos_interes)
+puntos_interes_2 = [(10, 20), (45, 12), (0, 5), (100, 80)]
+a = analizar_distancias(puntos_interes_2)
+print(f"tamaño de tupla;{a[0]}")
+print(f"primera coordenada;{a[1]}")

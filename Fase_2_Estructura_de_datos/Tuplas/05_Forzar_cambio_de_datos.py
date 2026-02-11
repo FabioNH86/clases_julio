@@ -9,5 +9,7 @@ clases = ("Guerrero", "Mago")
 # 1. Convierte 'clases' a una lista llamada 'lista_temp'
 # 2. Agrega "Arquero" a 'lista_temp'
 # 3. Convierte 'lista_temp' de nuevo a tupla y guárdala en 'clases'
-
+lista_temp = list(clases)
+lista_temp.append("Arquero")
+clases = tuple(lista_temp)
 print(f"Clases finales: {clases}")

@@ -5,8 +5,10 @@
 
 def actualizar_fps(config_actual):
     # TODO: Convertir tupla a lista, cambiar valor en índice 1 y retornar tupla
-    pass
-
+    templist = list(config_actual) 
+    templist[1] = 120
+    config_nueva = tuple(templist)
+    return config_nueva
 # Prueba
 ajustes = ("Ultra", 60, "Sombras_ON")
 ajustes_nuevos = actualizar_fps(ajustes)
