@@ -6,8 +6,6 @@
 historial = ("Ataque", "Ataque", "Esquiva", "Ataque", "Curacion", "Ataque")
 
 # TODO: Usa .count() y .index()
-veces_ataque = historial.count("Ataque")
-posicion_curacion = historial.index("Curacion")
 
 print(f"El jugador atacó {veces_ataque} veces.")
 print(f"La primera curación fue en la posición {posicion_curacion}.")
