@@ -4,9 +4,9 @@
 # La función debe retornar True si el nombre está en la tupla, o False si no.
 
 def puede_entrar(usuario):
-    admins = ("Aldo", "Fabio", "Python_Master")
+    admins = ("Aldo", "Julio", "Python_Master")
     # TODO: Usa el operador 'in' para verificar y retornar True o False
-    pass
+    
 
 # Prueba
 print(puede_entrar("Aldo"))  # Debería ser True
