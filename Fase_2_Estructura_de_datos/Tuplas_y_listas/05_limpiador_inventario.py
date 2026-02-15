@@ -7,7 +7,9 @@
 
 def limpiar_mochila(objetos):
     # TODO: Contar pociones, ordenar lista y retornar
-    pass
+    cuenta = objetos.count("Pocion")
+    objetos.sort()
+    return objetos, cuenta
 
 mi_mochila = ["Espada", "Pocion", "Escudo", "Pocion", "Bota"]
 mochila_final = limpiar_mochila(mi_mochila)

@@ -5,6 +5,6 @@
 stats = (100, 50, 80)
 
 # TODO: Realiza el desempaquetado aquí
-vida, estamina = stats
+vida, estamina, mana = stats
 
 print(f"Stats cargados -> Vida: {vida}, Mana: {mana}, Estamina: {estamina}")

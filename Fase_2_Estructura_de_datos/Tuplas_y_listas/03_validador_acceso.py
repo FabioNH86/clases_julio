@@ -6,7 +6,10 @@
 def puede_entrar(usuario):
     admins = ("Aldo", "Julio", "Python_Master")
     # TODO: Usa el operador 'in' para verificar y retornar True o False
-    
+    if usuario in admins:
+        return True
+    else:
+        return False
 
 # Prueba
 print(puede_entrar("Aldo"))  # Debería ser True
