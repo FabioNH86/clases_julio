@@ -13,3 +13,12 @@ inventario_jugador = ["Antorcha", "Llave Maestra", "Comida", "Cuerda"]
 #    Si no, imprime "Te falta: [objetos faltantes]".
 
 # Tu código aquí:
+set1 = set(requisitos)
+set2 = set(inventario_jugador)
+
+resultado = set1 - set2
+
+if resultado == None:
+    print("Puedes pasar")
+else:
+    print(f"Te falta: {resultado}")

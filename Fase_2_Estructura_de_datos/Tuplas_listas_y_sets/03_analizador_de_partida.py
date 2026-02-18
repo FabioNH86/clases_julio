@@ -2,10 +2,13 @@
 # Instrucciones: Tienes una lista de resultados de partidas. 
 # Cada partida es una tupla: (nombre_jugador, puntos).
 # Crea una función que reciba esta lista y devuelva un SET con los nombres 
-# de los jugadores que hicieron MÁS de 50 puntos.
+# de los jugadores que hicieron MÁS de 50 puntosc
 
 def obtener_ganadores(resultados):
     ganadores = set() # Creamos un set vacío
+    for nombres, puntos in resultados:
+        if puntos > 50:
+            ganadores.add(nombres)
     # TODO: Recorre la lista con un for
     # TODO: Si los puntos (índice 1 de la tupla) > 50, agrega el nombre al set
     return ganadores

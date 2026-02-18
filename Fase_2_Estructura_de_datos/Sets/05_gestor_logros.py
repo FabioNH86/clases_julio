@@ -7,9 +7,9 @@ logros_actuales = {"Primera Sangre", "Sobreviviente", "Explorador"}
 
 # TODO 1: Usa .add() para agregar "Primera Sangre" otra vez y también "Ganador"
 # Tu código aquí:
-
+logros_actuales.add("Primera Sangre")
 # TODO 2: Usa .discard() para borrar "Hacker" (Es más seguro que .remove() si no existe)
 # Tu código aquí:
-
+logros_actuales.remove("Hacker")
 print(f"Logros finales del jugador: {logros_actuales}")
 # Verifica: "Primera Sangre" solo debe aparecer una vez.

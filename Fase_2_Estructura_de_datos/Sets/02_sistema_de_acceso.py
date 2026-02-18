@@ -6,12 +6,14 @@
 usuarios_vip = {"Fabio", "Aldo", "Julio", "Gamer123"}
 
 # TODO 1: Usa el operador 'in' para ver si "Julio" tiene acceso
-# tiene_acceso = ...
+tiene_acceso = "Julio" in usuarios_vip
+    
 
 print(f"¿Julio puede entrar?: {tiene_acceso}")
 
+
 # TODO 2: Descomenta la línea de abajo para ver el error.
 # Luego vuélvela a comentar para que el programa corra.
-# print(usuarios_vip[0]) 
+print(usuarios_vip.sort()) 
 
 # LECCIÓN: ¡Los sets no tienen posición 0, 1, 2! Son una bolsa desordenada.

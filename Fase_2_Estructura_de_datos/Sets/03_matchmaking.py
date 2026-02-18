@@ -8,13 +8,13 @@ todos_los_jugadores = {"Jugador1", "Slayer99", "Aldo", "NoobMaster", "Fabio"}
 mis_amigos = {"Aldo", "Maria", "Fabio", "Pepe"}
 
 # TODO: Usa la intersección (&) o el método .intersection()
-# amigos_conectados = ...
+amigos_conectados = todos_los_jugadores & mis_amigos
 # Tu código aquí:
 
 print(f"Amigos listos para jugar: {amigos_conectados}")
 
 # RETO EXTRA: ¿Quiénes de tus amigos NO están conectados? (Diferencia -)
-# amigos_offline = ...
+amigos_offline = mis_amigos - todos_los_jugadores
 # Tu código aquí:
 
 print(f"Amigos offline: {amigos_offline}")

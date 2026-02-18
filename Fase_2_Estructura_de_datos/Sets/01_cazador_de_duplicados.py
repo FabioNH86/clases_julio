@@ -3,7 +3,7 @@
 # con tantos repetidos. Convierte la lista a un SET para dejar solo los objetos únicos.
 
 botin_bruto = ["Espada", "Moneda", "Escudo", "Espada", "Moneda", "Gema", "Espada"]
-
+botin_unico = set(botin_bruto)
 # TODO: Convierte la lista a un set para eliminar duplicados
 # botin_unico = ...
 # Tu código aquí:

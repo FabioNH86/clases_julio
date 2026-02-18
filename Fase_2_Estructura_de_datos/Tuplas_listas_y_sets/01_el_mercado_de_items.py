@@ -5,8 +5,9 @@
 mercancia_sucia = ("Pocion", "Escudo", "Pocion", "Espada", "Escudo", "Manzana")
 
 # TODO: Tu código aquí
-# 1. set_limpio = ...
-# 2. lista_final = ...
+set_limpio = set(mercancia_sucia)
+lista_final = list(set_limpio)
 # 3. Ordenar y print
+lista_final.sort()
 
 print(f"Mercancía lista para la venta: {lista_final}")
