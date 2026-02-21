@@ -8,3 +8,15 @@
 # 4. Usa .popitem() para eliminar el último elemento restante y muestra qué eliminó.
 
 # 5. Imprime el estado final del diccionario (debería quedar solo un elemento).
+
+inventario = {"uno":1 , "dos":2, "tres": 3, "cuatro": 4}
+
+guardar = inventario.pop("uno")
+print(guardar)
+
+del inventario["dos"]
+
+guardar2 = inventario.popitem()
+print(guardar2)
+
+print(inventario)

@@ -9,3 +9,16 @@
 # Imprime cada línea como: "Propiedad: [clave] -> Valor: [valor]".
 
 # 4. Vacía el diccionario por completo usando el método .clear() e imprímelo.
+
+curso_base = {"titulo": "cursochido", "horas": 6}
+curso_detalles = {"instructor": "pablo", "nivel":3, "horas":7}
+
+curso_detalles.update(curso_base)
+
+print(curso_detalles)
+
+for key, value in curso_detalles.items():
+    print(f"propiedad: {key} -> valor {value}")
+
+curso_detalles.clear()
+print(curso_detalles)

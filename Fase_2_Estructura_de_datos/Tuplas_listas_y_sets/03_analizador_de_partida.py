@@ -2,7 +2,7 @@
 # Instrucciones: Tienes una lista de resultados de partidas. 
 # Cada partida es una tupla: (nombre_jugador, puntos).
 # Crea una función que reciba esta lista y devuelva un SET con los nombres 
-# de los jugadores que hicieron MÁS de 50 puntosc
+# de los jugadores que hicieron MÁS de 50 puntos
 
 def obtener_ganadores(resultados):
     ganadores = set() # Creamos un set vacío

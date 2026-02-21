@@ -8,3 +8,14 @@
 # Si está, imprime "Correo encontrado".
 
 # 4. Usa el método .values() para imprimir solo los valores del diccionario (sin las claves).
+
+perfil = {"usuario":"usuariochido", "email": "1234@gmail,com"}
+seguidores2 = perfil.get("seguidores")
+if seguidores2 == None:
+    perfil["seguidores"] = 0
+print(perfil["seguidores"])
+
+if "email" in perfil:
+    print("Correo encontrado")
+
+print(perfil.values())

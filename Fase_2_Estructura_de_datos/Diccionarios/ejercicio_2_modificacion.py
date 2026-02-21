@@ -7,3 +7,9 @@
 
 # 4. Usa .setdefault() para intentar añadir "oferta": True. 
 # Luego úsalo otra vez con una clave que ya exista y observa si el valor cambia.
+
+carrito = {"pan": 2, "arroz":1, "pez": 6}
+carrito["Leche"] = 7
+carrito["pan"] *= 2
+carrito.setdefault("oferta",10)
+print(carrito)
