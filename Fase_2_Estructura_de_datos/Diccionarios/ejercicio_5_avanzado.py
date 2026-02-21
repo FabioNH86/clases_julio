@@ -1,4 +1,4 @@
-# EJERCICIO 5: FUSIÓN E ITERACIÓN PROFESIONAL
+# EJERCICIO 5: FUSIÓN E ITERACIÓN PROFESIONAL {}
 # 1. Crea dos diccionarios: 'curso_base' (titulo, horas) y 'curso_detalles' (instructor, nivel, horas).
 # Nota: Pon un número de horas distinto en cada uno.
 

@@ -1,4 +1,4 @@
-# EJERCICIO 4: ELIMINACIÓN DE DATOS
+# EJERCICIO 4: ELIMINACIÓN DE DATOS {}
 # 1. Crea un diccionario 'inventario' con 4 artículos y sus cantidades numéricas.
 
 # 2. Usa .pop() para eliminar un artículo y guarda su valor en una variable. Imprime ese valor.

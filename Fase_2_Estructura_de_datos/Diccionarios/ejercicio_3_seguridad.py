@@ -1,5 +1,5 @@
 # EJERCICIO 3: ACCESO SEGURO Y COMPROBACIÓN
-# 1. Crea un diccionario 'perfil' que tenga 'usuario' y 'email'.
+# 1. Crea un diccionario 'perfil' que tenga 'usuario' y 'email'. {}
 
 # 2. Usa el método .get() para buscar la clave 'seguidores'. 
 # Si no existe, debe devolver el número 0. Imprime el resultado.
