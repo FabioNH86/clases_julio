@@ -22,7 +22,7 @@
 #    d) Si no se cumple ninguna de las anteriores, 
 #       imprime el número tal cual.
 
-# TIPS PARA JULIO:
+# TIPS:
 # - Recuerda que un número es divisible por otro si el resto es cero (numero % divisor == 0).
 # - ¡Cuidado con el orden de los 'if' y 'elif'! El orden importa mucho aquí.
 
