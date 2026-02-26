@@ -5,22 +5,31 @@
 # 1. VARIABLES Y DATA: 
 # Crea una lista llamada 'inventario' que empiece vacía.
 # En ella guardaremos diccionarios por cada producto.
+inventario = []
 
-
+for i in inventario: 
+    print(i)
 # 2. FUNCIONES:
 # Define una función llamada 'agregar_producto' que reciba: nombre, precio y stock.
 # La función debe crear un diccionario y añadirlo a la lista 'inventario'.
 def agregar_producto(nombre, precio, stock):
     # Escribe aquí el código para crear el diccionario y hacer el .append()
-    pass
-
+    
+    diccionario = {"nombre" : nombre, "precio" : precio, "stock" : stock}
+    inventario.append(diccionario)
+    
 
 # Define una función llamada 'mostrar_inventario'.
 # Debe recorrer la lista con un loop y mostrar los detalles de cada producto.
 def mostrar_inventario():
     # Si la lista está vacía, imprime "No hay productos".
     # Si tiene datos, usa un bucle for para imprimir cada diccionario.
-    pass
+    if inventario == []:
+        print("No hay productos")
+    else:
+        for i in inventario: 
+            print(i)
+
 
 
 # Define una función llamada 'vender_producto' que reciba el 'nombre' del producto.
