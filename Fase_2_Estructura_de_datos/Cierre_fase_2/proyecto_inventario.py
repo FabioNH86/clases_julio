@@ -5,10 +5,8 @@
 # 1. VARIABLES Y DATA: 
 # Crea una lista llamada 'inventario' que empiece vacía.
 # En ella guardaremos diccionarios por cada producto.
-inventario = []
+inventario = [{"nombre" : "pan", "precio" : 15, "stock": 2}]
 
-for i in inventario: 
-    print(i)
 # 2. FUNCIONES:
 # Define una función llamada 'agregar_producto' que reciba: nombre, precio y stock.
 # La función debe crear un diccionario y añadirlo a la lista 'inventario'.
@@ -38,7 +36,17 @@ def vender_producto(nombre_buscado):
     # 2. Si lo encuentras, verifica con un condicional si hay stock (stock > 0).
     # 3. Si hay, resta 1 a la cantidad y confirma la venta.
     # 4. Si no hay stock o no existe, avisa al usuario.
-    pass
+    encontrado = False
+    for producto in inventario:
+        if producto["nombre"].lower() == nombre_buscado.lower():
+            encontrado = True
+            if producto["stock"] > 0:
+                producto["stock"] -= 1
+                print("Producto vendido")
+            else:
+                print("No hay de ese producto")
+    if encontrado == False:
+        print("no hay de ese producto")
 
 
 # 3. BUCLE PRINCIPAL (LOOP) Y CONDICIONALES:
@@ -51,3 +59,4 @@ def vender_producto(nombre_buscado):
 print("--- BIENVENIDO A TECH-STORE MANAGEMENT ---")
 
 # Empieza tu bucle while aquí...
+vender_producto("Pan")
