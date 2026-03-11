@@ -5,7 +5,7 @@
 # 1. VARIABLES Y DATA: 
 # Crea una lista llamada 'inventario' que empiece vacía.
 # En ella guardaremos diccionarios por cada producto.
-inventario = [{"nombre" : "pan", "precio" : 15, "stock": 2}]
+inventario = []
 
 # 2. FUNCIONES:
 # Define una función llamada 'agregar_producto' que reciba: nombre, precio y stock.
@@ -25,8 +25,10 @@ def mostrar_inventario():
     if inventario == []:
         print("No hay productos")
     else:
+        numeracion = 0
         for i in inventario: 
-            print(i)
+            numeracion += 1
+            print(f"producto {numeracion}", i)
 
 
 
@@ -59,4 +61,19 @@ def vender_producto(nombre_buscado):
 print("--- BIENVENIDO A TECH-STORE MANAGEMENT ---")
 
 # Empieza tu bucle while aquí...
-vender_producto("Pan")
+while True:
+    numero = input("Elegir opcion: \n 1 agregar producto \n 2 ver inventario \n 3 vender producto \n 4 salir")
+    numero = int(numero)
+    if numero == 1:
+        agregar_producto(input("Nombre del producto"), int(input("Precio del producto")), int(input("Stock del producto")))
+    elif numero == 2:
+        mostrar_inventario()
+    elif numero == 3:
+        vender_producto(input("Nombre del objeto"))
+    elif numero == 4:
+        break
+    c = input("Quieres continuar Y/N")
+    if str(c).lower() == "y":
+        continue
+    elif str(c).lower() == "n":
+        break
