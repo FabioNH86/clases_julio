@@ -2,6 +2,6 @@
 # PASO 2: Dentro de 'mensajes.py' escribe: 
 #         def despedida(): print("¡Clase terminada!")
 # PASO 3: Importa ese archivo aquí y llama a la función.
-
+import mensajes
 # TODO: import mensajes
-# mensajes.despedida()
+mensajes.despedida()
