@@ -4,5 +4,5 @@
 
 import os
 
-# TODO: ruta = os.getcwd()
+# TODO: 
 print(f"Estás trabajando en: {ruta}")
