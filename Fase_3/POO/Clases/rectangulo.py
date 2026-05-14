@@ -10,9 +10,11 @@ class Rectangulo():
         return self.base * self.altura
     def perimetro(self):
         return self.base * 2 + self.altura * 2
+    
+
         
         
 # Uso
-mi_rectangulo = Rectangulo(10, 5)
+mi_rectangulo = Rectangulo(altura=5,base=10)
 print(f"Área: {mi_rectangulo.area()}")
 print(f"Perímetro: {mi_rectangulo.perimetro()}")

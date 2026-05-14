@@ -7,13 +7,14 @@ class Libro():
         self.titulo = titulo
         self.autor = autor
 class Biblioteca():
-    def __init__(self,nombre,listalibros=[]):
-        self.nombre = nombre
-        self.listalibros = listalibros
+    def __init__(self):
+        self.listalibros = []
     def agregar_libro(self,libro):
-        libro=[]
-        libro.append()
-        
+        self.listalibros.append(libro)
+        print(f"El libro fue agregado {libro.titulo}")
+    def mostrar_catalogo(self):
+        for i in self.listalibros:
+            print(i.titulo,i.autor)
 # Prueba el código:
 mi_biblioteca = Biblioteca()
 
